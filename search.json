@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "# A tibble: 12 × 2\n   month         n\n   &lt;ord&gt;     &lt;int&gt;\n 1 September 20977\n 2 October    9890\n 3 August     9659\n 4 March      7524\n 5 April      6369\n 6 July       5748\n 7 February   4960\n 8 November   4825\n 9 December   3796\n10 May        3423\n11 January    3266\n12 June       2842"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallard ducks are a familiar and widely distributed species of dabbling duck, known for their adaptability, strong seasonal movement, and use of wetlands, lakes, and agricultural areas. Their movements are shaped by breeding, migration, and changing food availability, making them a useful species for studying how animals respond to environmental change.\nLake Constance, located on the border of Germany, Switzerland, and Austria, is an important wetland region for many migratory birds. It provides a rich stopover and wintering area where ducks can rest, forage, and move across a broad landscape. The lake and surrounding lowlands are a natural setting for tracking how individual birds move through the region over time.\nThe GPS tracking data used here records the movements of individual Mallards across multiple years. By examining the timing, distribution, and seasonal patterns in the locations, we can see how different birds use the region and how their routes change across the annual cycle. These tracks reveal both the shared migration context and the unique movement behavior of each duck.\n\n\n\n\n\n# A tibble: 52 × 2\n   duck_id                        n\n   &lt;chr&gt;                      &lt;int&gt;\n 1 2351 - Radolfzell JC 72052 20169\n 2 1806 - Radolfzell JC70792  10139\n 3 2318 - Radolfzell JC 72053  9522\n 4 2312 - Radolfzell JC 72051  7163\n 5 2497 - Radolfzell JC74415   4835\n 6 2339 - Radolfzell JC 72018  4645\n 7 2495 - Radolfzell JC74406   3030\n 8 2501 - Radolfzell JC74418   2861\n 9 2502 - Radolfzell JC74417   2715\n10 2489 - Radolfzell JC74412   2514\n# ℹ 42 more rows\n\n\n\n\n# A tibble: 1 × 4\n  min_lat max_lat min_lon max_lon\n    &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;\n1    47.3    53.9    7.83    23.6"
+  }
+]
